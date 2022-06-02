@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natyroldan82/PorfolioNR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natyroldan82/PorfolioNR/issues"
+  },
+  "homepage": "https://github.com/natyroldan82/PorfolioNR#readme",
   "description": ""
 }
