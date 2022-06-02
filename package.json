@@ -15,5 +15,9 @@
     "url": "https://github.com/natyroldan82/PorfolioNR/issues"
   },
   "homepage": "https://github.com/natyroldan82/PorfolioNR#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
 }
