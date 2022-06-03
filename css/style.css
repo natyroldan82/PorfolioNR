@@ -1,17 +1,23 @@
-/* Error: Can't find stylesheet to import.
- *   ,
- * 6 | @import 'section/header';
- *   |         ^^^^^^^^^^^^^^^^
- *   '
- *   scss\style.scss 6:9  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a   \2577 \a 6 \2502  @import 'section/header';\d\a   \2502          ^^^^^^^^^^^^^^^^\a   \2575 \a   scss\\style.scss 6:9  root stylesheet";
+/*nesting*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500&display=swap");
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*ui*/
+.header h1 {
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

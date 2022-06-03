@@ -1,6 +1,6 @@
 /*nesting*/
 @import 'base/globales';
 @import 'base/variables';
-
+@import 'base/reset';
 /*ui*/
-@import 'section/header';
+@import './section.scss/header';
