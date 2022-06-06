@@ -3,21 +3,83 @@
 html {
   font-size: 62.5%;
   box-sizing: border-box;
+  margin: 0;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
+body {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+body .contenedor {
+  max-width: 150rem;
+  padding: 5rem 3rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 3.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 2.6rem;
+}
+
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*ui*/
-.header h1 {
-  text-transform: uppercase;
-  color: white;
+.header {
+  background-image: url(//assets/img/teclas.jpg);
+}
+
+.footer {
+  padding: 3rem 3rem;
+  background-color: #71B100;
+}
+.footer .contenedor {
+  padding-top: 5rem;
+}
+.footer .copy {
+  color: #EEEEEE;
   text-align: center;
+}
+
+.barra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+.navegacion a {
+  color: #EEEEEE;
+  text-decoration: none;
+  font-size: 3rem;
+}
+.navegacion a:last-of-type {
+  margin-right: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
