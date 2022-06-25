@@ -1,3 +1,28 @@
-.header{
-    background-image: url(/assets/img/teclas.jpg);
+.body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    background-attachment: fixed;
+    h1{
+        color: $blanco;
+        text-align: center;
+        cursor: pointer;
+    }
+   
 }
+
+.barra{
+
+    img{
+        
+        padding: 10rem;
+       
+    }}
+    .btn{
+        
+            background-color: $blanco;
+            color: $verde;
+        }
+    

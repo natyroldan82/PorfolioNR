@@ -1,0 +1,21 @@
+.navegacion{
+    a{
+        padding: 10rem;
+        
+    }
+}
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15rem;
+    a{
+        color: $blanco;
+        text-decoration: none;
+        font-size: 3rem;
+     &:last-of-type{
+         margin-right: 0;
+     }
+
+
+    }
+}

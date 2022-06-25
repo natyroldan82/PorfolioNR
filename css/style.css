@@ -1,5 +1,5 @@
 /*nesting*/
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700&display=swap");
 html {
   font-size: 62.5%;
   box-sizing: border-box;
@@ -13,10 +13,13 @@ html {
 body {
   font-size: 1.6rem;
   line-height: 2;
-}
-body .contenedor {
-  max-width: 150rem;
-  padding: 5rem 3rem;
+  width: 100%;
+  height: 100%;
+  /*  
+  .contenedor{
+      max-width: 190rem;
+    padding: 5rem 3rem;
+  } */
 }
 
 a {
@@ -49,30 +52,54 @@ h4 {
 }
 
 /*ui*/
-.header {
-  background-image: url(//assets/img/teclas.jpg);
+.body {
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+.body h1 {
+  color: #EEEEEE;
+  text-align: center;
+  cursor: pointer;
 }
 
-.footer {
-  padding: 3rem 3rem;
-  background-color: #71B100;
+.barra img {
+  padding: 10rem;
 }
-.footer .contenedor {
-  padding-top: 5rem;
+
+.btn {
+  background-color: #EEEEEE;
+  color: #71B100;
 }
-.footer .copy {
-  color: #EEEEEE;
+
+.copy {
+  font-size: 2.5rem;
+  color: white;
   text-align: center;
 }
 
 .barra {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-right: 5rem;
 }
+.barra img {
+  width: 100%;
+}
 
+.navegacion a {
+  padding: 10rem;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15rem;
+}
 .navegacion a {
   color: #EEEEEE;
   text-decoration: none;
@@ -81,5 +108,7 @@ h4 {
 .navegacion a:last-of-type {
   margin-right: 0;
 }
+
+/*nesting*/
 
 /*# sourceMappingURL=style.css.map */

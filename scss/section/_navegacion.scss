@@ -1,19 +1,12 @@
 .barra{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: center;
+
     margin-right: 5rem;
-}
-.navegacion{
-    a{
-        color: $blanco;
-        text-decoration: none;
-        font-size: 3rem;
-     &:last-of-type{
-         margin-right: 0;
-     }
-
-
+    img{
+        width: 100%;
+       
     }
 }
